@@ -1,10 +1,10 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f2027,50:203a43,100:2c5364&text=Julius%20Rentoria&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Manufacturing%20Intelligence%20%7C%20Applied%20AI&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="Julius Rentoria banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f2027,50:203a43,100:2c5364&text=Julius%20Rentoria&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Real-Time%20Data%20Systems%20%7C%20Applied%20AI&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="Julius Rentoria banner" />
 
 <a href="https://github.com/Iamrentoria211">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=4FC3F7&center=true&vCenter=true&width=760&height=40&duration=3200&lines=Building+real-time+monitoring+systems;Automating+manual+factory+data+workflows;Shipping+RAG+pipelines+on+local+LLMs;Type-safe+from+database+to+dashboard" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=4FC3F7&center=true&vCenter=true&width=760&height=40&duration=3200&lines=Building+real-time+monitoring+systems;Automating+manual+data+workflows;Shipping+RAG+pipelines+on+local+LLMs;Type-safe+from+database+to+dashboard" alt="Typing animation" />
 </a>
 
 <br/>
@@ -21,7 +21,7 @@
 <!-- ===================== ABOUT ===================== -->
 ## About
 
-Full-Stack Developer at **Kinpo Electronics (New Kinpo Group)**, based at FPIP, Sto. Tomas, Batangas, Philippines. I build scalable web applications, real-time monitoring systems, and internal workflow automation that sit directly on the manufacturing floor, and I am interested in the space where modern software architecture meets manufacturing intelligence and practical AI tooling.
+Full-Stack Developer at **Kinpo Electronics (New Kinpo Group)**, based at FPIP, Sto. Tomas, Batangas, Philippines. I build scalable web applications, real-time monitoring systems, and internal workflow automation, and I am interested in the space where modern software architecture meets practical AI tooling.
 
 ```ts
 const julius = {
@@ -54,7 +54,7 @@ const julius = {
   <tr>
     <td width="50%" valign="top">
       <h3>Real-Time Data Systems</h3>
-      Production dashboards, live telemetry monitors, and WebSocket-driven reporting backed by PostgreSQL and Prisma.
+      Live dashboards, event monitors, and WebSocket-driven reporting backed by PostgreSQL and Prisma.
     </td>
     <td width="50%" valign="top">
       <h3>Applied AI and Local LLMs</h3>
@@ -88,9 +88,9 @@ const julius = {
 <!-- ===================== PROJECTS ===================== -->
 ## Featured Projects
 
-### Real-Time SMT Production Monitor
+### Real-Time Operations Monitor
 
-Factory line telemetry dashboard that streams live machine events, error tracking, and throughput statistics over WebSockets.
+Live monitoring dashboard that streams events, error tracking, and throughput statistics over WebSockets.
 
 <img src="https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" /> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" /> <img src="https://img.shields.io/badge/-Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io" />
 
@@ -100,18 +100,18 @@ Factory line telemetry dashboard that streams live machine events, error trackin
 
 ```mermaid
 flowchart LR
-    A[SMT Line Machines] -->|machine events| B[Express API]
+    A[Event Sources] -->|events| B[Express API]
     B --> C[(PostgreSQL via Prisma)]
     B -->|Socket.io broadcast| D[React Dashboard]
     C -->|throughput and error queries| B
-    D --> E[Production Floor Displays]
+    D --> E[Live Display Screens]
 ```
 
 </details>
 
-### ADA (AI Defect Assistant)
+### ADA (AI Assistant)
 
-Line-defect troubleshooting assistant powered by a RAG pipeline that combines PostgreSQL with pgvector and local LLM orchestration, so defect knowledge stays on-premises.
+Troubleshooting assistant powered by a RAG pipeline that combines PostgreSQL with pgvector and local LLM orchestration, so knowledge stays on-premises.
 
 <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/-pgvector-336791?style=flat-square" alt="pgvector" /> <img src="https://img.shields.io/badge/-Ollama-000000?style=flat-square" alt="Ollama" /> <img src="https://img.shields.io/badge/-RAG-6E40C9?style=flat-square" alt="RAG" />
 
@@ -121,7 +121,7 @@ Line-defect troubleshooting assistant powered by a RAG pipeline that combines Po
 
 ```mermaid
 flowchart LR
-    Q[Defect Question] --> E[Embedding]
+    Q[User Question] --> E[Embedding]
     E --> V[(pgvector Similarity Search)]
     V -->|top-k context| P[Prompt Assembly]
     Q --> P
@@ -131,9 +131,9 @@ flowchart LR
 
 </details>
 
-### Yield RPA and Data Summarizer
+### Report Automation Suite
 
-Python automation suite with a custom GUI that extracts, transforms, and validates manufacturing test logs into production-ready Excel yield reports.
+Python automation suite with a custom GUI that extracts, transforms, and validates raw log data into production-ready Excel reports.
 
 <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/-Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel" /> <img src="https://img.shields.io/badge/-RPA-FF6F00?style=flat-square" alt="RPA" />
 
@@ -143,10 +143,10 @@ Python automation suite with a custom GUI that extracts, transforms, and validat
 
 ```mermaid
 flowchart LR
-    A[Raw Test Logs] --> B[Extract]
+    A[Raw Logs] --> B[Extract]
     B --> C[Transform]
     C --> D{Validate}
-    D -->|pass| E[Excel Yield Report]
+    D -->|pass| E[Excel Report]
     D -->|fail| F[Flag for Review]
 ```
 
