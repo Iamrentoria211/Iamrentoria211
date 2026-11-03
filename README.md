@@ -209,6 +209,10 @@ Augmented reality indoor campus navigation mobile app built with Unity and the V
 
 <br/>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Iamrentoria211/Iamrentoria211/main/profile-3d-contrib/profile-customize.svg" alt="3D contribution graph" width="100%" />
+</div>
+
 <!-- ===================== CONNECT ===================== -->
 ## Connect
 
